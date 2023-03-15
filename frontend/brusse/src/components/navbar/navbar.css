@@ -1,0 +1,89 @@
+.header {
+    background-color: #040506;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0%;
+}
+
+.links {
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+    margin: 3px;
+}
+
+.search {
+    display: flex;
+    flex: 0.5;
+}
+
+.search>div {
+    height: 25.5px;
+    background-color: rgba(59, 156, 240, 0.95);
+}
+
+.input {
+    margin-left: 20px;
+    height: 5px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.icon-search {
+    background-color: rgba(59, 156, 240, 0.95);
+}
+
+.linkss {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.upper {
+    font-size: 12px;
+}
+
+.lower {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.sign {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.div-basket {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.div-basket>span {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.basket {
+    color: aliceblue;
+    margin-top: 8px;
+}
+
+.sign-bt {
+    color: white;
+    background-color: #040506;
+    border: 0;
+}
+
+.number {
+    text-decoration: none;
+}
