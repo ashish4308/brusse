@@ -23,12 +23,14 @@ function Body() {
         <div className='products-div'>
             <Products
                 id='0'
+                key={0}
                 title='Famous poster used by ashish rawat'
                 price='500 rs'
                 rating = {2}
                 image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjt-XSgUwcz5DtdK1BJUfYg9MztZtKMb8D5w&usqp=CAU"
             />
             <Products 
+                 key={1}
                 id='1'
                 title='Noise Pulse Go Buzz Smart Watch Bluetooth Calling with 1.69" Display, 550 NITS, 150+ Cloud Watch Face, SPo2, Heart Rate Tracking, 100 Sports Mode with Auto Detection, Longer Battery (Jet Black)'
                 price='1499 rs'
@@ -44,6 +46,7 @@ function Body() {
 
         <div className='products-div'>
             <Products 
+                 key={12}
                 id='12'
                 title='Lenovo IdeaPad Slim 3 Intel Celeron N4020 4th Gen 15.6" (39.62cm) HD Thin & Light Laptop'
                 price='25800 rs'
@@ -51,6 +54,7 @@ function Body() {
                 image="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61Dw5Z8LzJL._SX569_.jpg"
             />
             <Products 
+                 key={123}
                 id='123'
                 title='Lenovo Ideapad slim 2'
                 price='20000 rs'
@@ -58,6 +62,7 @@ function Body() {
                 image="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/S/aplus-media/vc/815c8e0a-19aa-4cea-8054-cc5791e8405b.__CR0,0,300,300_PT0_SX300_V1___.jpg"
             />
             <Products 
+                key={1234}
                 id='1234'
                 title='Book by sage of six path'
                 price='200 rs'
@@ -72,6 +77,7 @@ function Body() {
         
         <div className='products-div'>
             <Products 
+                 key={12345}
                 id='12345'
                 title='Nicki Minaj Poster'
                 price='50000 rs'

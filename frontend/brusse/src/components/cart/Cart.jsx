@@ -2,7 +2,7 @@ import React from 'react'
 import Product from '../all/Product'
 import { useSelector } from 'react-redux';
 import NavBar from '../navbar/NavBar';
-
+// import Footer from '../Footer/Footer';
 function Cart() {
     
     const products = useSelector((state) => state.cart);
@@ -21,6 +21,7 @@ function Cart() {
             }
             
         </div>
+        {/* <Footer /> */}
         
     </div>
   )

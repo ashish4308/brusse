@@ -18,21 +18,27 @@ function Signup() {
                 "Content-Type":"application/json"
             }
         }
+        if(!email && !password && !name){
+            alert('fill the form')
+        }else{
+
         
-        axios.post("http://localhost:5000/signup",{name, email,password},config)
-        .then((r)=>{
-            console.log(r)
-            navigate("/");
-        })
-        .catch((e)=>{
-            console.log(e);
-            if(e.response.data.msg === 'alredy exist'){
-                alert('alredy exist')
-                console.log("yo");
-            }else{
-                console.log("error in axios");
-            }
-           })
+        
+            axios.post("http://localhost:5000/signup",{name, email,password},config)
+            .then((r)=>{
+                console.log(r)
+                navigate("/");
+            })
+            .catch((e)=>{
+                console.log(e);
+                if(e.response.data.msg === 'alredy exist'){
+                    alert('alredy exist')
+                    console.log("yo");
+                }else{
+                    console.log("error in axios");
+                }
+            })
+        }
         
     }
 

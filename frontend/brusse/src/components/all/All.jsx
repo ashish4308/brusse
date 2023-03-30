@@ -4,6 +4,7 @@ import NavBar from '../navbar/NavBar'
 import './all.css'
 import axios from 'axios'
 import Product from './Product'
+import Footer from '../Footer/Footer'
 
 function All() {
     const [items, setItems] = useState([])
@@ -68,7 +69,7 @@ function All() {
                  ))  
             }
         </div>
-        
+        <Footer />
     </>
   )
 }

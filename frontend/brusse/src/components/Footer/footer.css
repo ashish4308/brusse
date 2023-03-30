@@ -1,0 +1,49 @@
+.footerkaupr {
+    background-color: #232F3E;
+}
+
+.footer {
+    background-color: #232F3E;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.know {
+    margin-top: 40px;
+    width: 17%;
+    margin: 50px;
+    color: white;
+}
+
+.know>h3 {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.know>p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.footer>div {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.fl {
+    width: 76px;
+}
+
+.fldiv>div {
+    font-size: 14px;
+    color: white;
+}
+
+.fldiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

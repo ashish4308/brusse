@@ -25,6 +25,11 @@ function Login() {
                     "Content-Type":"application/json"
                 }
             }
+            if(!email && !password){
+              alert("fill the form")
+            }else{
+
+            
             
             axios.post("http://localhost:5000/login",{ email,password},config)
             .then(async (r)=>{
@@ -44,6 +49,7 @@ function Login() {
               alert(e.response.data.msg)
               
             })
+          }
             
       }
   return (
@@ -61,7 +67,7 @@ function Login() {
         <div className='link-div'>
 
         
-        <Link to='/signup' className='link'>signup</Link>
+        <Link to='/signup' className='link'>Signup</Link>
         </div>
         </div>
     </div>
